@@ -1,8 +1,8 @@
 # 🧭 Idempotent Payment Routing Service
-### ⚡ *Reliable. Fault-tolerant. Exactly-once.*
 
-A production-grade backend system ensuring **idempotent**, **exactly-once payment processing** with  
-Outbox Pattern, Dead-Letter Queue, Retry Logic, Async Gateway Simulation, Dockerized Infrastructure & CI.
+###  *Reliable. Fault-tolerant. Exactly-once.* ⚡
+
+*A production-grade backend system ensuring **idempotent**, **exactly-once payment processing** with Outbox Pattern, Dead-Letter Queue, Retry Logic, Async Gateway Simulation, Dockerized Infrastructure & CI.*
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-21-red?style=flat-square)
