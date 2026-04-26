@@ -24,7 +24,6 @@ recruiters, the entire codebase has been freshly reorganized and published here.
 Routing Service. All future enhancements, issues, documentation updates, and feature development
 will take place here.
 
----
 
 # 🚀 Overview
 
@@ -58,7 +57,7 @@ If the system is not idempotent, customers will get:
 - **ghost transactions**
 - **pending-but-actually-failed transactions**
 
-This system *solves all of that* — elegantly and predictably.
+This system *solves all of that* - elegantly and predictably.
 
 ---
 
@@ -218,7 +217,7 @@ Retries failures up to 3 times.
                  ├─ Success → Update transaction → Mark processed     [THIRD PARTY GATEWAY]    |
                  └─ Failure → Retry (max 3)                                                    |
             ▼                                                                                  |
-    If still failing → DLQ 😵                                   <-------------------------------
+    If still failing → DLQ                                     <-------------------------------
 
 
 ---
@@ -275,14 +274,6 @@ Tests include:
 
 ### GET /api/v1/dead-letter
 - List failed events.
-
----
-
-# 👤 Author
-
-**@vishwasio - [Vishwas Karode]**  
-Backend Developer | OCI Certified  
-GitHub: https://github.com/vishwasio
 
 ---
 
